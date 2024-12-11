@@ -15,7 +15,7 @@ hyprland.pc
 .config/ags/**
 **/object/
 **/Code/
-**/google-chrome/**
+.config/google-chrome/**
 **/info/
 **/logs/
 **/refs/
