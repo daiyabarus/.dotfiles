@@ -13,6 +13,7 @@ ln_success=false
 
 # Get current focused monitor
 current_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
+right_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: no/{print name}')
 echo $current_monitor
 # Construct the full path to the cache file
 cache_file="$cache_dir$current_monitor"
