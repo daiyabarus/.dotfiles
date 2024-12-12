@@ -201,7 +201,7 @@ map('x', '<Leader>v', 'gc', { remap = true, desc = 'Comment Selection' })
 map('n', 'gco', 'o<Esc>Vcx<Esc><cmd>normal gcc<CR>fxa<BS>', { silent = true, desc = 'Add Comment Below' })
 map('n', 'gcO', 'O<Esc>Vcx<Esc><cmd>normal gcc<CR>fxa<BS>', { silent = true, desc = 'Add Comment Above' })
 
--- Macros
+-- Macros cf
 map('n', '<C-q>', 'q', { desc = 'Macro Prefix' })
 
 -- Formatting

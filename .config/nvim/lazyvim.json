@@ -1,0 +1,26 @@
+{
+ "extras": [
+    "lazyvim.plugins.extras.formatting.black",
+    "lazyvim.plugins.extras.formatting.prettier",
+    "lazyvim.plugins.extras.lang.clangd",
+    "lazyvim.plugins.extras.lang.json",
+    "lazyvim.plugins.extras.lang.markdown",
+    "lazyvim.plugins.extras.lang.toml",
+    "lazyvim.plugins.extras.lang.typescript",
+    "rafi.plugins.extras.coding.align",
+    "rafi.plugins.extras.colorscheme.bamboo",
+    "rafi.plugins.extras.colorscheme.catppuccin",
+    "rafi.plugins.extras.colorscheme.cyberdream",
+    "rafi.plugins.extras.colorscheme.github",
+    "rafi.plugins.extras.colorscheme.juliana",
+    "rafi.plugins.extras.colorscheme.kanagawa",
+    "rafi.plugins.extras.colorscheme.monokai-pro",
+    "rafi.plugins.extras.colorscheme.tokyonight",
+    "rafi.plugins.extras.editor.harpoon2",
+    "rafi.plugins.extras.git.cmp-git",
+    "rafi.plugins.extras.git.fugitive",
+    "rafi.plugins.extras.lang.markdown"
+  ],
+  "news": [],
+  "version": 7
+}

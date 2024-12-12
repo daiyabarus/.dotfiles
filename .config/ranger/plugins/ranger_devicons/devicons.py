@@ -203,6 +203,10 @@ file_node_extensions = {
     'zsh'      : '',
 }
 
+
+
+
+
 dir_node_exact_matches = {
 # English
     '.git'                             : '',
