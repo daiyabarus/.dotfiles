@@ -1,15 +1,14 @@
--- Rafael Bodill's Neovim entry-point
--- https://github.com/rafi/vim-config
+require('config.EcoVim')
 
-local stdconfig = vim.fn.stdpath('config') --[[@as string]]
-local lazy_override = stdconfig .. '/lua/config/lazy.lua'
+require('utils.globals')
+require('utils.functions')
 
-vim.uv = vim.uv or vim.loop
+require('config.options')
+require('config.lazy')
+require('config.keymappings')
+require('config.autocmds')
+require('config.lsp.config')
+require('config.lsp.setup')
+require('config.lsp.functions')
 
-if vim.uv.fs_stat(lazy_override) then
-	-- Override RafiVim default config.
-	require('config.lazy')
-else
-	-- Bootstrap lazy.nvim, RafiVim, LazyVim and your plugins.
-	require('rafi.config.lazy')
-end
+require('internal.cursorword')
